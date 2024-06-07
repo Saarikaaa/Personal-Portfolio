@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Lato','Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ff0066;
+}
+
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(to right, #0080ff, #FFA500);
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #150101;
+}
+
+#about {
+    background-color: #ff697b;
+    color: #fff;
+}
+
+#skills {
+    background-color: #87CEEB;
+    color: #fff;
+}
+
+#projects {
+    background-color: #00BFFF;
+    color: #fff;
+}
+
+#contact {
+    background: linear-gradient(to right, #08000e, #00CED1);
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin-bottom: 30px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.contact-info {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #f8f9fa;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skill {
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    width: 200px; /* Adjust the width to make the circles bigger */
+    height: 200px; /* Adjust the height to make the circles bigger */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* Add some margin between circles */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.skill:hover {
+    transform: scale(1.1); /* Enlarge the circle on hover */
+}
+
+    
